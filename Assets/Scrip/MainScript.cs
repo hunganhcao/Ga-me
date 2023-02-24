@@ -86,7 +86,7 @@ public class MainScript : MonoBehaviour
         //
         if (this.gameObject.transform.position.y < -20f)
         {
-            life = 10;
+            life = 0;
             txtLife.text = life.ToString();
             DiedPnUI.SetActive(true);
             
