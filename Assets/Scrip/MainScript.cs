@@ -19,7 +19,7 @@ public class MainScript : MonoBehaviour
     private bool QuayPhai = true;
     private float KTraGiuPhim = 0.2f;
     private float TGGiuPhim = 0;
-    private static float life = 10;
+    private static float life ;
     private static float score = 0;
 
     public AudioManager AmThanh;
@@ -43,7 +43,7 @@ public class MainScript : MonoBehaviour
         
 
         txtLife = GameObject.Find("LifeTxt").GetComponent<Text>();
-        life = 10;
+        life = 11;
         txtLife.text = life.ToString();
         
 		txtScore = GameObject.Find("ScoreTxt").GetComponent<Text>();
